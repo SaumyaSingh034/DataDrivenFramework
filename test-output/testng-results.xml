@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8724" started-at="2021-05-10T10:28:29Z" finished-at="2021-05-10T10:28:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8724" started-at="2021-05-10T10:28:29Z" finished-at="2021-05-10T10:28:37Z">
+      <class name="com.parameterizeTestNG.TestNGXMLParameterize">
+        <test-method status="PASS" signature="LoginPageDetails(java.lang.String, java.lang.String)[pri:0, instance:com.parameterizeTestNG.TestNGXMLParameterize@12d3a4e9]" name="LoginPageDetails" duration-ms="8695" started-at="2021-05-10T15:58:29Z" finished-at="2021-05-10T15:58:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://accounts.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[singhsaumyait034@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageDetails -->
+      </class> <!-- com.parameterizeTestNG.TestNGXMLParameterize -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
